@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+</head>
+<body>
+    <h1>Farwell Party Survey Form</h1>
+    <form action="your-server-endpoint" >
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name"><br><br>
+      <label for="E-mail">E-mail</label>
+      <input type="text" id="name" name="name "placeholder="Enter your E-mail">
+      <br>
+      <br>
+      <label for="age">Age:</label>
+      <input type="text" name="age" id="age" placeholder="Enter your age">
+      <br>
+      <br/>
+      <label for="short-answer">Short Answer:</label>
+        <input type="text" id="short-answer" name="short-answer" placeholder="Your answer here"><br><br>
+        <label for="Students">Which option is best describe you?</label>
+        <select id="Students" name="Students">
+            <option value="Students">Students</option>
+            <option value="saab">Saab</option>
+            <option value="mercedes">Mercedes</option>
+            <option value="audi">Audi</option>
+        </select>
+        <br>
+        <br>
+        <label for="subscribe">Subscribe to newsletter:</label>
+        <input type="checkbox" id="subscribe" name="subscribe"><br><br>
+
+        <label for="terms">I agree to the terms and conditions:</label>
+        <input type="checkbox" id="terms" name="terms"><br><br>
+        <fieldset>
+            <legend>Question 1: Do you like coffee?</legend>
+            <input type="radio" id="coffee-yes" name="coffee" value="yes">
+            <label for="coffee-yes">Yes</label><br>
+            <input type="radio" id="coffee-no" name="coffee" value="no">
+            <label for="coffee-no">No</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Question 2: Do you like tea?</legend>
+            <input type="radio" id="tea-yes" name="tea" value="yes">
+            <label for="tea-yes">Yes</label><br>
+            <input type="radio" id="tea-no" name="tea" value="no">
+            <label for="tea-no">No</label>
+        </fieldset>
+        <br><br>
+
+        <p>Do you like tea?</p>
+        <input type="radio" id="tea-yes" name="tea" value="yes">
+        <label for="tea-yes">Yes</label>
+        <input type="radio" id="tea-no" name="tea" value="no">
+        <label for="tea-no">No</label>
+        <br>
+        <br/>
+        
+        <label for="comments">Comments:</label><br>
+        <textarea id="comments" name="comments" rows="4" cols="30">
+        </textarea>
+        <br>
+        <br>
+       <button type="submit" value="Submit"> Submit</button>
+    </form>
+</body>
+</html>
+
